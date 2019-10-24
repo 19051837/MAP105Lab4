@@ -1,0 +1,131 @@
+body, header, div, p, h1, h2, h3, h4 {
+   margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+header h1, header h2 {
+    color: white;
+}
+header h1 {
+    font-size: 48px;
+}
+header h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+header span {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 160px;
+    padding: 9px;
+    border: solid 1px white;
+}
+header span a:link, header span a:visited {
+    color: white;
+}
+     
+/* Student CSS */
+
+header
+{
+    background:#111;
+}
+
+header .banner--title {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+}
+img.banner {
+    width: 100%;
+    opacity: 0.3;
+}
+
+article {
+    margin: 0 20% 0 20%;
+}
+
+.highlights h2
+{
+        border-style: solid;
+        border-width: 2px;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-color: #a0a0a0;
+        margin: 10px 0 10px 0;
+}
+
+.highlights--container {
+    width: 50%;
+    float: left;
+}
+.highlights--media {
+    float: left;
+}
+
+a.highlights--button {
+    float: right;
+    margin: 10px;
+    padding: 2%;
+    background-color: orange;
+}
+
+a.highlights--button {
+    float: right;
+    margin: 10px;
+    padding: 2%;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mosaic {
+    position: absolute;
+    margin-top: 10%;
+}
+.mosaic-item.mosaic--b {
+    position: absolute;
+    top: 0;
+    left: 102%;
+}
+.mosaic-item.mosaic--c {
+    position: absolute;
+    top: 12.5em;
+    left: 102%;
+}
+.mosaic-item.mosaic--d {
+    position: absolute;
+    top: 0;
+    left: 153%;
+}
+.mosaic-item.mosaic--f {
+    position: absolute;
+    top: 24.7em;
+    left: 51%;
+}
+.mosaic-item.mosaic--g {
+    position: absolute;
+    top: 24.7em;
+    left: 102%;
+}
+.mosaic-item.mosaic--j {
+    position: absolute;
+    top: 37em;
+    left: 51%;
+}
+.mosaic-item.mosaic--h {
+    position: absolute;
+    top: 24.7em;
+    left: 153%;
+}
+.mosaic-item.mosaic--k {
+    position: absolute;
+    top: 49.4em;
+    left: 153%;
+}
